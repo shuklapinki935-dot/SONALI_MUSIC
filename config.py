@@ -6,20 +6,20 @@ from pyrogram import filters
 load_dotenv()
 # ===============================================
 
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+API_ID = int(getenv("API_ID",23716023))
+API_HASH = getenv("API_HASH",167915ee85b8f6d5dd70d61f08c30d46)
+BOT_TOKEN = getenv("BOT_TOKEN",8474988030:AAHdSHfD2L3MdrN5XLADYvqyBS_6QwxtL_E)
 
 # ===============================================
 
-OWNER_ID = int(getenv("OWNER_ID", 7473021518))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "TheSigmaCoder")
+OWNER_ID = int(getenv("OWNER_ID", 8237288408))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "cute_girl_rihini")
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # ===============================================
 
-BOT_USERNAME = getenv("BOT_USERNAME", "Sonali_Music_bot")
-BOT_NAME = getenv("BOT_NAME", "Sonali Music")
+BOT_USERNAME = getenv("BOT_USERNAME", "Strangerr_music_bot")
+BOT_NAME = getenv("BOT_NAME", "ⳜƬⱤ𐤠ƝƓƸⱤ 〆 𝐌ᴜsɪᴄ")
 
 # ===============================================
 
