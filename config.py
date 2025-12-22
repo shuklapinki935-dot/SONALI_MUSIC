@@ -8,13 +8,13 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID",23716023))
 API_HASH = getenv("API_HASH",167915ee85b8f6d5dd70d61f08c30d46)
-BOT_TOKEN = getenv("BOT_TOKEN",8474988030:AAHdSHfD2L3MdrN5XLADYvqyBS_6QwxtL_E)
+BOT_TOKEN = getenv("BOT_TOKEN",8384096032:AAEapI2_L58SZO6CqLccbnkdB9lbyNpLV7I)
 
 # ===============================================
 
 OWNER_ID = int(getenv("OWNER_ID", 8237288408))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "cute_girl_rihini")
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID",-1003613842372))
 
 # ===============================================
 
@@ -23,7 +23,7 @@ BOT_NAME = getenv("BOT_NAME", "ⳜƬⱤ𐤠ƝƓƸⱤ 〆 𝐌ᴜsɪᴄ")
 
 # ===============================================
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI",mongodb+srv://Tesla:Tesla@tesla.qwyry7c.mongodb.net/?retryWrites=true&w=majority&appName=Tesla)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # ===============================================
@@ -59,7 +59,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # ===============================================
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION",  "BQJafdsAgHb1ckJH6YlYBT1QYCuH3RmW1EjE-rej7dhiTeFvAESxv4BltZeRQQig-qrImiuLW2GxMwy3AVCyeZ-emvxRF082qdDbyqu6ltcm5IS4XgIeNCRqiKELCZxupC0L-6lkEpQUP9O6-fpb_MnT-BL6Nhcuc9rel8xdLdUldmylL7F9Tz6cwKCZS2crCeAmFZ5rYtltdZO8ldmEDmfBoIFBxbCDeuVnAblz2YgWxSuVMz9F38skg4tTpUCwz1C-DG6l4kIdcD1VVrp0D4JmVty5jLztRbgskUB1mov76uKPzg3K633YtxpiJiUGkI-j_2D9KPgLucHaOAaSPL5IXVh4iwAAAAH5Jg3-AQ")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
